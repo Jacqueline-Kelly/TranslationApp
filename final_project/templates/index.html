@@ -5,16 +5,20 @@
     <div class="card-body">
         <div class="mb-3">
             <label class="form-label">Text to be translated</label>
-            <input type="textarea" class="form-control" id="textToTranslate">
+            <input type="textarea" placeholder="Enter your text to translate" class="form-control" id="textToTranslate">
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Translation</label>
+            <div type="textarea" placeholder= "Translated Text" id="translated_text" style="padding: 25px 25px 25px 25px;"></div>
         </div>
     
         <div style="padding: 25px 25px 25px 25px;">
             <button onclick="translateToFrench()" class="btn btn-secondary">Translate to French</button>        
-            <button onclick="translateToEnglish()" class="btn btn-secondary">Translate to English</button>  
-            <button class="btn btn-secondary">halp</button>      
+            <button onclick="translateToEnglish()" class="btn btn-secondary">Translate to English</button>    
         </div>
     
-        <div id="translated_text" style="padding: 25px 25px 25px 25px;"></div>
-        </div>
+
+        </div> 
   </div>
 </html>
